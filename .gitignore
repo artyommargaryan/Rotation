@@ -1,0 +1,53 @@
+# CMake build directory
+build/
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+CMakeLists.txt.user
+/cmake-build-debug
+
+# Visual Studio Code settings
+.vscode/
+
+# Editor-specific temporary files
+*~
+
+# macOS-specific files
+.DS_Store
+
+# IDE-specific files and directories
+.idea/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.sln.docstates
+*.userprefs
+*.pidb
+*.tsserver.log
+*.vs/
+*.vscode/
+
+# Build systems
+Makefile
+Makefile.in
+CMakeLists.txt.user.in
+CMakeSettings.json
+
+# Dependency management
+vendor/
